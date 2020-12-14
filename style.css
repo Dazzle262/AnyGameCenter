@@ -1,4 +1,98 @@
 body {
 	font-family: "JetBrains Mono", sans-serif;
 	background-color: #37393d;
+	color: white;
+	background-image: url("img/cat-background.jpg");
+	background-image: repeat;
+	font-size: 2em;
+	color: black;
+}
+
+nav {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.border {
+    text-decoration: underline;
+    text-decoration-color: grey;
+	border: 3px solid grey;
+	border-radius: 3em;
+	background: white;
+	padding: 0.5em;
+}
+
+.h {
+	text-decoration: underline;
+	text-decoration-color: grey;
+	border: 3px solid grey;
+	border-radius: 3em;
+	background: white;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.catalog {
+		border: 3px solid grey;
+	border-radius: 3em;
+	background: white;
+	padding-left: 6em;
+	padding-right: 6em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 60px;
+	font-family: "JetBrains Mono", sans-serif;
+}
+
+.border-nav-button {
+	border: 3px solid grey;
+	border-radius: 3em;
+	background: white;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 40px;
+	font-family: "JetBrains Mono", sans-serif;
+}
+
+.p-1 {
+	padding: 1.5em;
+	line-height: 1.5em;
+	text-decoration: underline;
+	text-decoration-color: grey;
+}
+
+.border-solid-right p {
+	border: 5px solid #181818;
+	background: #383838;
+	border-radius: 15px;
+	padding: 15px;
+	width: 30em;
+}
+
+.eda-1 {
+	background-color: white;
+	border: 2px dashed grey;
+	line-height: 3em;
+	text-decoration: underline;
+	text-decoration-color: orange;
+}
+
+.domiki {
+	background-color: white;
+	border: 2px dashed grey;
+	line-height: 3em;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+footer {
+	border: 4px ridge black;
+	font-size: 16px;
+	background-color: grey;
+	padding: 1em;
+	line-height: 2em;
 }
